@@ -1,0 +1,43 @@
+.container{
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+
+
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    height: 100vh;
+
+    flex-flow: wrap;
+
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: center;
+
+
+}
+.item{
+    background-color: tomato;
+    /*width: 50;
+    height: 50px;*/
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+/*.item-1{
+    flex: 4;
+    order: 2;
+}
+.item-2{
+    flex: 1;
+}
+.item-3{
+    flex: 1;
+}
+.item-4{
+    flex: 1;
+}
+.item-5{
+    flex: 1;
+}*/
