@@ -1,5 +1,12 @@
 {
     "cSpell.words": [
         "Prasenjit"
-    ]
+    ],
+    "editor.fontSize": 12,
+    "editor.fontFamily": "'Cascadia Code'",
+    "editor.fontLigatures": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true 
+    }
 }
