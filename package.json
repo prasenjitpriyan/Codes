@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "format": "./Codes/.btn/prettier ./src -w",
+    "format": "/Users/prasenjitdas/Desktop/Codes/node_modules/.bin/prettier -w",
     "lint": "./Codes/.bin/eslint .src --ext .js --fix"
   },
   "keywords": [],
