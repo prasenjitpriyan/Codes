@@ -8,7 +8,7 @@ let fetchFact = (num) => {
   fetch(finalUrl)
     .then((resp) => resp.text())
     .then((data) => {
-      fact.Style.display = 'block';
+      fact.style.display = 'block';
       fact.innerHTML = `<h2>${num}</h2><p>${data}</p>`;
       document.querySelector('.container').append(fact);
     });
@@ -42,7 +42,9 @@ let getRandomFact = () => {
   fetchFact(num);
 };
 
-getFactBtn.addEventListener('click', getFact);
-window.addEventListener('load', getFact);
-ranFactBtn.addEventListener('click', getRandomFact);
+/// 1
 window.addEventListener('load', getRandomFact);
+
+// 2
+getFactBtn.addEventListener('click', getFact);
+ranFactBtn.addEventListener('click', getRandomFact);
